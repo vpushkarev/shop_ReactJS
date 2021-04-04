@@ -35,11 +35,11 @@ export default function App() {
           <Route path='/users'>
             <User />
           </Route>
-          <Route path='/'>
-            <Home />
-          </Route>
           <Route path='/times'>
             <Time />
+          </Route>
+          <Route path='/'>
+            <Home />
           </Route>
         </Switch>
       </div>
